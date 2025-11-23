@@ -17,7 +17,7 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "navigation-db-local",
+            "database_name": "navigation-db",
             "database_id": "43ff28e1-42d6-4e53-9657-0702ae1353b6"
         }
     ],
@@ -26,5 +26,14 @@
         "AUTH_USERNAME": "user",
         "AUTH_PASSWORD": "UYe67XWnr9gp!bg",
         "AUTH_SECRET": "UYe67XWnr9gp!bg"
+    },
+{
+  "routes": [
+    {
+      "pattern": "nav.yourdomain.com/*",
+      "custom_domain": true
     }
+  ]
+}
+
 }
